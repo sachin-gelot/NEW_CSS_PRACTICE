@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Selector</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+  div[class*="box"]{
+    background-color: aquamarine;
+    
+    margin: 20px;
+    border: 2px solid red;
+  }
+  p[class*="para"]{
+    color: rgb(202, 13, 161);
+  }
+  
+   
+</style>
+<body>
+    <div class="main">
+    <div class="box-1">
+        <h1>hey google!!</h1>
+        <p class="para-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sit.</p>
+        <p class="para-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sit.</p>
+        <p class="para-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sit.</p>
+       
+    </div>
+    <div class="box-2">
+        <h1>hey google!!</h1>
+        <p class="para-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sit.</p>
+       
+    </div>
+    <div class="box-3">
+        <h1>hey google!!</h1>
+        <p class="para-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sit.</p>
+       
+    </div>
+</div>
+</body>
+</html>

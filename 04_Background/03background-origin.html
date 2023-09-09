@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background-origin</title>
+</head>
+<style>
+    div{
+        width : 95%;
+        height: 400px ;
+        margin: 20px;
+        
+    }
+    .box1{
+        background-origin: padding-box;
+        background-image: url(./IMG/download.jpeg);
+        border: 15px dashed green;
+        padding: 25px;
+        background-repeat: no-repeat;
+    }
+    .box2{
+        background-origin: content-box; 
+        background-image: url(./IMG/download\ \(1\).jpeg);
+        border: 15px dashed green;
+        padding: 40px;
+        background-repeat: no-repeat;
+    }
+    .box3{
+
+      background-origin: border-box; 
+
+        background-image: url(./IMG/download\ \(2\).jpeg); 
+        border: 15px dashed green;
+    }
+</style>
+<body>
+    <div class="box1">
+        <h1>background-origin</h1>
+    </div>
+    <div class="box2">
+        <h1>background-origin</h1>
+    </div>
+    <div class="box3">
+        <h1>background-origin</h1>
+    </div>
+</body>
+</html>

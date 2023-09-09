@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendend selector</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+  .child > p{
+    color: blue;
+  }
+  .child > h1{
+    color: rgb(255, 0, 187);
+  }
+
+  
+   
+</style>
+<body>
+    
+    <div class="box-1">
+        <h1>hey google!!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sit.</p>
+        <div class="child">
+            <h1>
+                hey dude
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sit.</p>
+
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sit.</p>
+
+       
+    </div>
+   
+
+</body>
+</html>

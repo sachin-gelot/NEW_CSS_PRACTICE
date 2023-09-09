@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClassPsudeo Selector</title>
+</head>
+<style>
+    a{
+        color: black;
+        background-color: antiquewhite;
+    }
+    a:hover{
+        color: rgb(244, 241, 241);
+        background-color: black;
+    }
+   
+    a:active{
+        color: rgb(198, 14, 195);
+
+    }
+    a:visited{
+        color: rgb(1, 56, 29);
+    
+    }
+    .list:first-child{
+        color: blue;
+    }
+    .list:last-child{
+        color: rgb(4, 255, 0);
+    }
+    .list-1:nth-child(3n+1){
+        color: blue;
+    }
+    .list-2:nth-child(){
+        color: blue;
+    }
+    
+  
+    
+</style>
+<body>
+    <h1></h1>
+    <a href="http://google.com">google</a>
+    <br><br>
+    <a href="http://amazon.com">amazon</a>
+    <br><br>
+    <a href="http:/flipcart.com">flipcart</a>
+    <br><br>
+    <a href="http://twiter.com">twiter</a>
+    <br><br>
+    <a href="http://telegram.org">telegram</a>
+    <br><br>
+    <a href="http://youtube.com">youtube</a>
+    <ol class="order">
+        <li class="list">home</li>
+        <li class="list">home</li>
+        <li class="list">home</li>
+        <li class="list">home</li>
+        <li class="list">home</li>
+       
+    </ol>
+    <ol class="order-1">
+        <li class="list-1">home</li>
+        <li class="list-1">home</li>
+        <li class="list-1">home</li>
+        <li class="list-1">home</li>
+        <li class="list-1">home</li>
+       
+    </ol>
+    <ol class="order-2">
+        <li class="list-2">home</li>
+        <li class="list-2">home</li>
+        <li class="list-2">home</li>
+        <li class="list-2">home</li>
+        <li class="list-2">home</li>
+       
+    </ol>
+    <ol class="order-3">
+        <li class="list-3">home</li>
+        <li class="list-3">home</li>
+        <li class="list-3">home</li>
+        <li class="list-3">home</li>
+        <li class="list-3">home</li>
+       
+    </ol>
+</body>
+</html>

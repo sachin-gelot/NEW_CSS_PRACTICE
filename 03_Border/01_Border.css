@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(166, 217, 65);
+}
+/* .box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10,.box11,.box12,.box13,.box14,.box15,.box16,.box,.box17,.box18,.box19,.box20,.box21,.box22,.box23,.box24,.box25,.box26,.box27,.box28,.box29,.box30,.box31,.box32,.box33,.box34,.box35{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    
+
+} */
+div[class*="box"]{
+    background-color:aliceblue;
+    height: 200px;
+    width: 200px;
+}
+.content{
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(7,1fr);
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+}
+.box1{
+    border: 10px solid green;
+}
+.box2{
+    border-top: 10px solid green;
+}
+.box3{
+    border-bottom: 10px solid green;
+}
+.box4{
+    border-left: 10px solid green;
+}
+.box5{
+    border-right: 10px solid green;
+}
+.box6{
+    border: 10px solid black;
+    border-radius: 20px;
+}
+.box7{
+    border: 10px solid black;
+    border-top-left-radius: 20px;
+}
+.box8{
+    border: 10px solid black;
+     border-top-right-radius: 20px;
+}
+.box9{
+    border: 10px solid black;
+    border-bottom-left-radius: 20px;
+}
+.box10{
+    border: 10px solid black;
+    border-bottom-right-radius: 20px;
+}
+.box11{
+   
+    border: 10px solid;
+    border-color: red rgb(246, 20, 182) gray green;
+    
+}
+
+.box12{
+    border: 10px solid;
+   border-top-color: blue;
+}
+.box13{
+    border: 10px solid;
+border-bottom-color: blue;
+}
+.box14{
+    border: 10px solid;
+    border-left-color: blue;
+}
+
+.box15{
+    border: 10px solid;
+    border-right-color: blue;
+}
+
+.box16{
+    border: solid rgb(226, 229, 32);
+    border-width: 5px 10px 15px 20px;
+}
+
+.box17{
+    border: solid rgb(226, 229, 32);
+        border-top-width: 10px;
+}
+
+.box18{ 
+    border: solid rgb(226, 229, 32);    border-bottom-width: 10px;
+}
+
+.box19{ 
+    border: solid rgb(226, 229, 32);
+        border-left-width: 10px;
+}
+
+.box20{
+    border: solid rgb(226, 229, 32);
+        border-right-width: 10px;
+}
+
+.box21{
+    border: 5px rgb(213, 122, 204);
+    border-style: dashed;
+}
+
+.box22{
+    border: 5px rgb(213, 122, 204);
+    border-style: dotted;}
+
+.box23{
+    border: 5px rgb(213, 122, 204);
+    border-style: double;
+}
+
+.box24{
+    border: 5px rgb(213, 122, 204);
+    border-style: groove;
+}
+
+.box25{
+    border: 5px rgb(213, 122, 204);
+    border-style: outset;
+}
+.box26{
+    border: 5px rgb(213, 122, 204);
+    border-style: ridge;
+}
+
+.box27{
+    border: 5px rgb(213, 122, 204);
+    border-style: hidden;
+
+}
+
+.box28{
+    border: 5px rgb(213, 122, 204);
+    border-style: none;
+}
+
+.box29{
+    border: 5px rgb(213, 122, 204);
+    border-style: unset;
+}
+
+.box30{
+    border: 5px rgb(213, 122, 204);
+    border-style: solid;
+}
+
+.box31{
+     border-block-start: 10px solid green;
+}
+
+.box32{
+    border-block-end: 10px solid green;
+}
+
+.box33{
+    border: 10px solid;
+    border-block-end-color: blueviolet;
+}
+
+.box34{
+    border: 10px solid;
+    border-block-start-color: gray;
+}
+
+.box35{
+    border: 10px green;
+    border-block-start-style: solid;
+}
+

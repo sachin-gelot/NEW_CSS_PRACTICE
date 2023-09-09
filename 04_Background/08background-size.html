@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background-size</title>
+</head>
+<style>
+    div{
+        width: 80%;
+        height: 400px;
+        margin: 20px;
+    }
+    .box1{
+        background-image: url(./IMG/download.jpeg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        border: 3px dashed rgb(116, 187, 116);
+    }
+    .box2{
+        background-image: url(./IMG/download\ \(1\).jpeg);
+        background-size:cover;
+        border: 3px dashed rgb(116, 187, 116);
+    }
+    
+    .box3{
+        background-image: url(./IMG/download\ \(2\).jpeg);
+        background-size: 1000px;
+        border: 3px dashed rgb(116, 187, 116);
+        background-repeat: no-repeat;
+    }
+</style>
+<body>
+    <div class="box1">background-size</div>
+    <div class="box2">background-size</div>
+    <div class="box3">background-size</div>
+    
+</body>
+</html>
