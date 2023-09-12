@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static</title>
+</head>
+<style>
+    .main{
+        display: flex;
+        
+    }
+    div[class*="box"]{
+        background-color: antiquewhite;
+        height: 150px ;
+        width: 150px;
+        
+        
+        border: 2px solid black;
+        
+    }
+    .box-3{
+        /* relative position jo box hota he uski position chnage karne par gap chhodta he */
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="box-1">Home-1</div>
+        <div class="box-2">Home-2</div>
+        <div class="box-3">Home-3</div>
+        <div class="box-4">Home-4</div>
+        <div class="box-5">Home-5</div>
+    </div>
+</body>
+</html>

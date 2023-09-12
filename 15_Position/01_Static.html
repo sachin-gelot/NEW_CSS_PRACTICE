@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static</title>
+</head>
+<style>
+    .main{
+        display: flex;
+        justify-content: center;
+    }
+    div[class*="box"]{
+        background-color: antiquewhite;
+        height: 150px ;
+        width: 150px;
+        text-align: center;
+        margin: 20px;
+        border: 2px solid black;
+        
+    }
+    .box-1{
+        /* static position ye defualt hoti he  */
+        position: static;
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="box-1">Home</div>
+        <div class="box-2">Home</div>
+        <div class="box-3">Home</div>
+        <div class="box-4">Home</div>
+        <div class="box-5">Home</div>
+    </div>
+</body>
+</html>
