@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia Query</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+        
+    .side2{
+        padding: 100px;
+        text-align: center;
+        display: inline-block;
+
+    }
+    .side1{
+        padding: 50px;
+        display: inline;
+    }
+    img{
+        width: 200px;
+        display: inline;
+    }
+    
+    @media(max-width:1400px){
+        body{
+            background-color: aqua;
+        }
+    }
+    @media(max-width:1300px){
+        body{
+            background-color: rgb(251, 167, 152);
+        }
+        
+    }
+    @media(max-width:1200px){
+        body{
+            background-color: rgb(94, 237, 168);
+        }
+    }
+    @media(max-width:1100px){
+        body{
+            background-color: rgb(183, 0, 255);
+        }
+    }
+    @media(max-width:1000px){
+        body{
+            background-color: rgb(0, 255, 13);
+        }
+    }
+    @media(max-width:900px){
+        body{
+            background-color: rgb(225, 255, 0);
+        }
+        main{
+            display: block;
+        }
+    }
+    @media(max-width:800px){
+        body{
+            background-color: rgb(243, 85, 201);
+        }
+        img{
+            border-radius: 50%;
+            width: 250px;
+            height: 250px;
+            padding: 0;
+            margin: 20px 0px;
+        }
+    }
+    @media(min-width:680px){
+        body{
+            background-color: rgb(238, 108, 113);
+        }
+    }
+
+</style>
+<body>
+    <div class="main">
+        <div class="side1">
+            <img src="../IMG/mae-mu-xtRL02ZuZxE-unsplash.jpg" alt="">
+        </div>
+        
+        <div class="side2">
+         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint nam rem vero animi maiores officiis cumque doloremque sapiente beatae dolorum! Mollitia aut amet laudantium placeat beatae officia molestias saepe corrupti?
+        </div>
+    </div>
+</body>
+</html>
