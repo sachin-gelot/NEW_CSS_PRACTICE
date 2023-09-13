@@ -11,17 +11,44 @@
         padding: 0;
         box-sizing: border-box;
     }
-    body{
+    div[class*="linear"]{
+        margin: 10px auto;
+        height: 200px;
+        width: 200px;
+    }
+    .linear{
+        background: linear-gradient(0.1turn,red, green, blue 25%,red, green, blue,red, green, blue,red, green, blue);
+    }
+    .linear1{
         background: linear-gradient(0.25turn,red, green, blue 25%,red, green, blue,red, green, blue,red, green, blue);
     }
-    div{
-       
-
+    .linear2{
+        background: linear-gradient(0.45turn,red 10%, green 10%, blue 10%,red 10%, green 10%, blue 10%,red, green, blue,red, green, blue);
+    }
+    .linear3{
+        background: linear-gradient(0.65turn,red, green, blue 25%,red, green, blue,red, green, blue,red, green, blue);
+    }
+    .linear4{
+        background: linear-gradient(0.9turn,red, green, blue 25%,red, green, blue,red, green, blue,red, green, blue);
     }
 </style>
 <body>
+    <div class="main">
     <div class="linear">
         Linear radial-gradient
     </div>
+    <div class="linear1">
+        Linear radial-gradient
+    </div>
+    <div class="linear2">
+        Linear radial-gradient
+    </div>
+    <div class="linear3">
+        Linear radial-gradient
+    </div>
+    <div class="linear4">
+        Linear radial-gradient
+    </div>
+</div>
 </body>
 </html>

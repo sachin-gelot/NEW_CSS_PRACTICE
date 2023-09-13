@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conic-gradient</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    div[class*="Conic"] {
+      margin: 10px auto;
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      text-align: center;
+      padding-top: 20px;
+      color: white;
+    }
+    .Conic {
+      background-color: red;
+      background-image: conic-gradient(yellow, #f06d06, white,green,blue,black);
+    }
+    .Conic1 {
+      background-color: red;
+      background-image: conic-gradient( yellow, #f06d06 50%);
+    }
+    .Conic2 {
+      
+        background-color: red;
+      background-image: conic-gradient( yellow, #f06d06 50%);
+    }
+    .Conic3 {
+      
+        background-color: red;
+      background-image: conic-gradient(rgb(9, 9, 9)0 30%,rgb(245, 7, 7)0 60%, #06f019 0 90%, #2906f0 0);
+    }
+  </style>
+  <body>
+    <div class="main">
+      <div class="Conic">Conic-gradient</div>
+      <div class="Conic1">Conic-gradient</div>
+      <div class="Conic2">Conic-gradient</div>
+      <div class="Conic3">Conic-gradient</div>
+      
+    </div>
+  </body>
+</html>
