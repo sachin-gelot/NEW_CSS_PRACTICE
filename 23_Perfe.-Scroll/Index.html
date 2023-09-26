@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Scroll</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html{
+        scroll-snap-type: y mandatory;
+    }
+    div[class*="box"]{
+        height: 100vh;
+        display: flex;
+        width: 100vw;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        color: khaki;
+        font-size: 50px;
+        scroll-snap-align: start;
+        scroll-snap-stop: always;
+    }
+    .box-1{
+        background-color: aqua;
+    }
+    .box-2{
+        background-color: blue;
+    }
+    .box-3{
+        background-color: cadetblue;
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="box-1">
+            box-1
+        </div>
+        <div class="box-2">
+            box-2
+        </div>
+        <div class="box-3">
+            box-2
+        </div>
+    </div>
+</body>
+</html>
